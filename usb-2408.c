@@ -29,10 +29,6 @@
 
 #define HS_DELAY 1000
 
-// Globals
-Thermocouple_Data ThermocoupleData[8];
-double TypeKReverseExtra[3];
-
 void usbBuildGainTable_USB2408(libusb_device_handle *udev, double table[NGAINS_2408][2])
 {
   /*
